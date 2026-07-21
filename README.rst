@@ -60,3 +60,14 @@ Boxes.py comes with Sphinx based documentation for usage, installation
 and development.
 
 The rendered version can be viewed at <https://florianfesti.github.io/boxes/html/index.html>.
+
+Local Web UI
+------------
+
+From a Bash terminal in VS Code, run the local web UI with:
+
+.. code-block:: bash
+
+   ./.venv/Scripts/python.exe boxes/scripts/boxesserver.py
+
+Then open http://localhost:8000/ in your browser.
